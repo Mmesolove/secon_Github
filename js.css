@@ -1,0 +1,18 @@
+#green{
+    background-color: rgb(4, 105, 4);
+}
+#red{
+    background-color: rgb(230, 3, 3);
+}
+#blue{
+    background-color: rgb(2, 2, 148);
+}
+h3{
+    font-size: 5rem;
+}
+button{
+    border-radius:5px ;
+    width: 100px;
+    height: 40px;
+   margin:5px ; 
+}
