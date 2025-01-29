@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cls pro.css">
+</head>
+<body>
+  <div class="main">
+     <nav>
+       <div class="logo">
+        <img src="/project 17/iphone.jpg" alt="">
+       </div> 
+       <div class="dlinks">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Cart</li>
+        </ul>
+       </div>
+     </nav>
+     <div class="info">
+        <div class="overlay"></div>
+        <img src="/project 17/Screenshot_20-1-2025_185854_images.macrumors.com.jpeg" class="mobile">
+        <div id="circle">
+        <div class="features one">
+            <!-- <img src="/project 17/16.cam.webp" alt=""> -->
+            <div class="cam">
+                <h1>camera</h1>
+                <p>48 MP ultrawide and 5x zoom cameras</p>
+            </div>
+        </div>
+        <div class="features two">
+            <!-- <img src="/project 17/proce16.jpg" alt=""> -->
+            <div class="pro">
+                <h1>processor</h1>
+                <p>two performance cores working at 4.04GHz</p>
+            </div>
+        </div> 
+        <div class="features three">
+            <!-- <img src="/project 17/iphone-16-display.jpg" alt=""> -->
+            <div class="dis">
+                <h1>Display</h1>
+                <p>6.1 display</p>
+            </div>
+        </div>
+        <div class="features four">
+            <!-- <img src="/project 17/ba16.jpg" alt=""> -->
+            <div class="ba3">
+                <h1>battery</h1>
+                <p>battery capacity of 3,561 mAh</p>
+            </div>
+
+        </div>
+        </div>
+        <div class="controls">
+            <img src="/project 17/up.svg" id="upbtn">
+        <h3>feartures</h3>
+            <img src="/project 17/icod.svg" id="downbtn">
+        </div>
+     </div>
+  </div> 
+  <script >
+    var circle = document.getElementById("circle");
+
+var upbtn = document.getElementById("upbtn");
+var downbtn = document.getElementById("downbtn");
+var rotateValue = circle.style.transform;
+var  rotateSum;
+
+upbtn.onclick = functon()
+{
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+downbtn.onclick = functon()
+{
+    rotateSum = rotateValue + "rotate(90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+  </script> 
+</body>
+</html>

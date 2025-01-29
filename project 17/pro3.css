@@ -1,0 +1,263 @@
+*{  margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+         background-image:url(/tree\ 2.jpg);
+        padding: 0;
+        margin: 0;
+        height: 109vh;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+/* .head{
+     width: 1200px;   
+     height: 75px;
+     margin: auto;
+} */
+header{
+        /* font-size: 2rem; */
+        padding: 15px 10px 15px 10px;
+        box-shadow: none;
+}
+ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+    ul li {
+        list-style: none;
+    }
+
+    ul li h1{
+        padding-right: 55px;
+        color: orangered;
+        font-family: Arial;
+    }
+    ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4 ease-in-out;
+    }
+    ul li a:hover{
+        color: orangered;
+    }
+
+.search{
+  width: 3200px;  
+  height: 40px;    
+  float: left;
+  margin-left: 50px;
+
+}
+.srch{
+        font-family: 'Times New Roman';
+        width: 120px;
+        height: 30px;
+        background: transparent;
+        margin-top: 13px;
+        font-size: 15px;
+        border-right: none;
+        float: left;
+        padding: 15px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+}
+
+.btn{
+        width: 100px;
+        height: 40px;
+        background: orangered;
+        border: 2px solid orangered;
+        margin-top: 13px;
+        color: whitesmoke;
+        font-size:15px ;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+}
+
+.btn:focus{
+        outline: none;
+}
+
+.srch:focus{
+        outline: none;
+}
+
+.web{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        color: white;
+}
+
+.web .par {
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+}
+
+.web h1{
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-top: 9%;
+letter-spacing: 2px;
+}
+
+.web .cn{
+        width: 160px;
+        height: 40px;
+        background: orangered;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s ease;
+}
+
+.web .cn a{
+        text-decoration: none;
+        color: #000;
+        transition: .3s ease;
+
+}
+
+.cn:hover{
+        background: #fff;
+}
+
+.web span {
+        color: orangered;
+        font-size: 60px;
+         
+}
+
+.div{
+   width: 250px;     
+   height: 450px;
+   background: black;
+   position: absolute;
+   top: -20px;
+   left: 870px;
+   bottom: 400px;
+   border-radius: 10px;
+   padding: 25px;
+   /* align-content: center; */
+}
+
+.div h2{
+   width: 220px; 
+   font-family: sans-serif; 
+   text-align: center; 
+   color: orangered;
+   font-size: 22px; 
+   background-color: #fff;
+   border-radius: 10px; 
+   margin: 2px;
+   padding: 8px;
+}
+
+.div input{
+        width: 240px; 
+        height: 35px;
+        border-bottom: 1px solid orangered;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color:#fff;
+        font-size: 15px; 
+        background: transparent; 
+        margin-top: 30px;
+        font-family: sans-serif;      
+        letter-spacing: 1px;
+}
+
+.div input:focus{
+        outline: none;
+}
+
+::placeholder{
+        color: #fff;
+        font-family: Arial;
+}
+
+.btn {
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.4s ease;
+}
+
+.btn:hover{
+        background: #fff;
+        color: orangered;
+}
+
+.btn a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+}
+
+.div .link{
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+}
+
+.div .link a{
+        text-decoration: none;
+        color: orangered;
+}
+
+.log{
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+.icon a{
+        text-decoration: none;
+        color: #fff;
+}
+
+.icon li{
+        color: #fff;
+        font-size: 30px;
+        list-style: none;
+        padding-left: 14px;
+        padding-top: 5px;
+        display: flex; 
+        justify-content: center;
+        /* padding: 5px 5px 5px 5px; */
+        gap: 5px;
+        /* text-align: center;     */
+}
+
+.icon li:hover{
+        color: orangered;
+}
+
+
+
+
